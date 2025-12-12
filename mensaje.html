@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <header class="header">
+    <nav class="nav">
+        <div class="nav-logo">
+            <img src="imagenes/PyC.png" width="85" height="85" alt="Logo Personalizados PyC">
+            <span>Personalizados PyC</span>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="index.html" class="nav-menu-link">Inicio</a></li>
+            <li class="nav-menu-item"><a href="mensaje.html" class="nav-menu-link">Contactos</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+        <section class="contact-info">
+            <h1>Información de Contacto</h1>
+            <p>Si tienes alguna pregunta o inquietud, no dudes en ponerte en contacto con nosotros.</p>
+            <p><strong>Correo electrónico:</strong> PyCpersonalizado0@gmailcom</p>
+            <p><strong>Teléfono:</strong> +54 9 11 2323-4545</p>
+        </section>
+
+        <section class="form-container">
+            <h2>Envíanos un mensaje</h2>
+            <section class="form-container">
+    <form action="https://formspree.io/f/mzznyvpo" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">Tu email:</label>
+        <input type="email" name="email" id="email" placeholder="Tu correo" required>
+
+        <label for="message">Tu mensaje:</label>
+        <textarea name="message" id="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</section>
+
+        </section>
+    </div>
+
+</body>
+</html>
